@@ -2135,6 +2135,8 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			display: flex;
+			justify-content: center;
 		}
 
 			.image.avatar:before {
@@ -2142,10 +2144,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				display: block;
-				width: 60%;
-				margin-left: auto;
-				margin-right: auto;
+				border-radius: 100%;
+				width: 100%;
 			}
 	.Jack{
 
@@ -2645,7 +2645,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10 em;
 		}
 
 /* Footer */
