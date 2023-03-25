@@ -454,7 +454,7 @@
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-linkedin" onclick="openTabLinkedIn()"><span class="label">LinkedIn</span></a></li>
 					<li><a href="#" class="icon brands fa-github" onclick="openTabGitHub()"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon brands fa-codewars-square" onclick="openTabCodewars"><span class="label">CodeWars</span></a></li>
+					<li><a href="#" class="icon brands <iconify-icon icon=" simple-icons:codewars"></iconify-icon>" onclick="openTabCodewars()"><span class="label">CodeWars</span></a></li>
 					<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
@@ -465,15 +465,16 @@
 		</footer>
 
 		<script>
-			function openTabFacebook() {
-				window.open("https://www.facebook.com/", "_blank");
-			}
-			function openTabInstagram() {
-				window.open("https://www.instagram.com/", "_blank");
+			function openTabLinkedIn() {
+				window.open("https://www.linkedin.com/feed/", "_blank");
 			}
 			function openTabGitHub() {
-				window.open("https://github.com/Jack-Kessler/SushiProject", "_blank");
+                window.open("https://www.codewars.com/users/MNWILDHOCKEY", "_blank");
 			}
+            function openTabCodeWars() {
+                window.open("https://github.com/Jack-Kessler", "_blank");
+            }
+			src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
 		</script>
 
 		<!-- Scripts -->
