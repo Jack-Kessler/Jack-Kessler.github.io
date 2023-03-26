@@ -454,7 +454,7 @@
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-linkedin" onclick="openTabLinkedIn()"><span class="label">LinkedIn</span></a></li>
 					<li><a href="#" class="icon brands fa-github" onclick="openTabGitHub()"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon brands <iconify-icon icon=" simple-icons:codewars"></iconify-icon>" onclick="openTabCodewars()"><span class="label">CodeWars</span></a></li>
+					<li><a href="#" onclick="opentabCodeWars()"><span class="iconify" data-icon="simple-icons:codewars"></span></a></li>
 					<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
@@ -464,19 +464,6 @@
 			</div>
 		</footer>
 
-		<script>
-			function openTabLinkedIn() {
-				window.open("https://www.linkedin.com/feed/", "_blank");
-			}
-			function openTabGitHub() {
-                window.open("https://www.codewars.com/users/MNWILDHOCKEY", "_blank");
-			}
-            function openTabCodeWars() {
-                window.open("https://github.com/Jack-Kessler", "_blank");
-            }
-			src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
-		</script>
-
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -484,6 +471,21 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
+			<!-- For icons -->
+		<script>
+			function openTabLinkedIn() {
+				window.open("https://www.linkedin.com/feed/", "_blank");
+			}
+			function openTabGitHub() {
+				window.open("https://www.codewars.com/users/MNWILDHOCKEY", "_blank");
+			}
+			function openTabCodeWars() {
+				window.open("https://github.com/Jack-Kessler", "_blank");
+			}
+		</script>
+
+		<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
 	</body>
 </html>
